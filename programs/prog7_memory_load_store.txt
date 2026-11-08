@@ -1,0 +1,9 @@
+; Program 7: Memory Store (Opcode 3) and Memory Load (Opcode 1)
+2141 ; R1 = 41h ('A')
+3190 ; Store R1 into memory[90]
+1290 ; Load memory[90] into R2
+2301 ; R3 = 01h
+5423 ; R4 = R2 + R3 = 42h ('B')
+32FF ; Print 'A' to screen
+34FF ; Print 'B' to screen
+C000 ; Halt

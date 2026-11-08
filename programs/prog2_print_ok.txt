@@ -1,0 +1,6 @@
+; Program 2: Print "OK" on screen using ASCII hex (4F = 'O', 4B = 'K')
+214F ; R1 = 'O' (4F)
+31FF ; Print R1 to screen
+224B ; R2 = 'K' (4B)
+32FF ; Print R2 to screen
+C000 ; Halt

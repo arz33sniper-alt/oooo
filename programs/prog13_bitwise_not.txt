@@ -1,0 +1,6 @@
+; Program 13: Bitwise complement (~R1) using XOR with FFh
+21AA ; R1 = AAh (10101010b)
+22FF ; R2 = FFh (11111111b)
+9312 ; R3 = R1 XOR FFh = 55h (01010101b)
+33FF ; Output 55h ('U') to screen
+C000 ; Halt

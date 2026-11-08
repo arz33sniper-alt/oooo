@@ -1,0 +1,7 @@
+; Program 6: Circular Right Rotate (Opcode A) and Register Move (Opcode 4)
+2181 ; R1 = 81h (10000001b)
+A101 ; Rotate R1 right by 1 bit -> C0h (11000000b)
+4012 ; Copy R1 into R2 (R2 = C0h)
+A202 ; Rotate R2 right by 2 bits -> 30h ('0')
+32FF ; Output R2 ('0') to screen
+C000 ; Halt

@@ -1,0 +1,11 @@
+; Program 12: Swap two memory cells (Memory[50] and Memory[51])
+21AA ; R1 = AAh
+22BB ; R2 = BBh
+3150 ; Memory[50] = AAh
+3251 ; Memory[51] = BBh
+1350 ; R3 = Memory[50]
+1451 ; R4 = Memory[51]
+3450 ; Memory[50] = BBh
+3351 ; Memory[51] = AAh
+34FF ; Output BBh to screen
+C000 ; Halt

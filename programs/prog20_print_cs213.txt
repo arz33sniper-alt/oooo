@@ -1,0 +1,12 @@
+; Program 20: Print "CS213" on screen
+2143 ; R1 = 'C'
+31FF ; Print 'C'
+2153 ; R1 = 'S'
+31FF ; Print 'S'
+2132 ; R1 = '2'
+31FF ; Print '2'
+2131 ; R1 = '1'
+31FF ; Print '1'
+2133 ; R1 = '3'
+31FF ; Print '3'
+C000 ; Halt

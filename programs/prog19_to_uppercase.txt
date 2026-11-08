@@ -1,0 +1,6 @@
+; Program 19: Convert lowercase 'a' (61h) to uppercase 'A' (41h) using AND with DFh
+2161 ; R1 = 'a' (61h)
+22DF ; R2 = DFh (clear bit 5)
+8312 ; R3 = R1 AND DFh = 41h ('A')
+33FF ; Print 'A' to screen
+C000 ; Halt

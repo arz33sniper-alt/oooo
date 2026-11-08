@@ -1,0 +1,6 @@
+; Program 15: Swap nibbles of a byte using Rotate Right by 4 bits
+2134 ; R1 = 34h
+4012 ; Copy R1 to R2
+A204 ; Rotate R2 right by 4 bits -> 43h ('C')
+32FF ; Output 'C' to screen
+C000 ; Halt

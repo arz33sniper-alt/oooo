@@ -1,0 +1,8 @@
+; Program 18: Floating-Point Addition (0.5 + 0.5 = 1.0)
+; 0.5 = 0.1000 * 2^0 -> sign=0, exp=4 (100), mant=1000 -> 48h
+; 1.0 = 0.1000 * 2^1 -> sign=0, exp=5 (101), mant=1000 -> 58h ('X')
+2148 ; R1 = 0.5 (48h)
+2248 ; R2 = 0.5 (48h)
+6312 ; R3 = 0.5 + 0.5 = 1.0 (58h)
+33FF ; Output 58h ('X') to screen
+C000 ; Halt

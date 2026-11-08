@@ -1,0 +1,8 @@
+; Program 3: Two's complement subtraction (10 - 3 = 7) using negative (-3 = FDh)
+210A ; R1 = 10 (0Ah)
+22FD ; R2 = -3 in two's complement (FDh)
+5312 ; R3 = R1 + R2 = 07h
+2430 ; R4 = '0' (30h)
+5534 ; R5 = R3 + '0' = '7' (37h)
+35FF ; Print '7' on screen
+C000 ; Halt

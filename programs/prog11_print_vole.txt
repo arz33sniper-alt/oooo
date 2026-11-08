@@ -1,0 +1,10 @@
+; Program 11: Print "VOLE" on screen
+2156 ; R1 = 'V' (56h)
+31FF ; Print 'V'
+214F ; R1 = 'O' (4Fh)
+31FF ; Print 'O'
+214C ; R1 = 'L' (4Ch)
+31FF ; Print 'L'
+2145 ; R1 = 'E' (45h)
+31FF ; Print 'E'
+C000 ; Halt

@@ -1,0 +1,10 @@
+; Program 5: Bitwise OR, AND, XOR operations (Opcodes 7, 8, 9)
+21F0 ; R1 = F0h
+220F ; R2 = 0Fh
+7312 ; R3 = R1 OR R2  = FFh
+8412 ; R4 = R1 AND R2 = 00h
+9512 ; R5 = R1 XOR R2 = FFh
+3380 ; Store OR result at memory[80]
+3481 ; Store AND result at memory[81]
+35FF ; Output XOR result to screen
+C000 ; Halt

@@ -1,0 +1,15 @@
+SECTION:        S39_S40
+
+ZIP_FILE:       CS213_A2_Part3_S39_S40_20250823_20250212_20250213.zip
+
+ID1:            20250823
+NAME1:          Reem Hamdy Tawfik Alrefaay
+FILES1:         Memory.h, Memory.cpp, RegisterFile.h, RegisterFile.cpp, Screen.h, Screen.cpp
+
+ID2:            20250212
+NAME2:          Khaled Mohamed Hussien
+FILES2:         Instruction.h, Instruction.cpp, ALU.h, ALU.cpp, ProgramLoader.h, ProgramLoader.cpp
+
+ID3:            20250213
+NAME3:          Khaled Mohamed Fawzy
+FILES3:         CPU.h, CPU.cpp, Machine.h, Machine.cpp, ConsoleUI.h, ConsoleUI.cpp, A2-S39_S40-20250823-20250212-20250213.cpp

@@ -1,0 +1,11 @@
+; Program 8: Conditional Jump Loop (Print "123" using Opcode B)
+; Loaded at start address 10h
+2034 ; [10] R0 = '4' (34h) - stop condition
+2131 ; [12] R1 = '1' (31h) - counter
+2201 ; [14] R2 = 01h - step increment
+B120 ; [16] If R1 == R0 ('4'), jump to 20h (Halt)
+31FF ; [18] Print current digit R1 to screen
+5112 ; [1A] R1 = R1 + 1
+B016 ; [1C] Unconditional jump back to 16h (since R0 == R0)
+C000 ; [1E] Padding halt
+C000 ; [20] Target Halt

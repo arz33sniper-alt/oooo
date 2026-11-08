@@ -1,0 +1,13 @@
+; Program 17: Sum of first 5 integers (1+2+3+4+5 = 15 / 0Fh)
+2006 ; [10] R0 = 6 (stop when counter reaches 6)
+2101 ; [12] R1 = 1 (counter)
+2201 ; [14] R2 = 1 (step)
+2300 ; [16] R3 = 0 (sum)
+B124 ; [18] If R1 == 6, jump to 24h
+5331 ; [1A] R3 = R3 + R1
+5112 ; [1C] R1 = R1 + 1
+B018 ; [1E] Jump to 18h
+C000 ; [20] Unused
+C000 ; [22] Unused
+33FF ; [24] Output sum (0Fh) to screen
+C000 ; [26] Halt

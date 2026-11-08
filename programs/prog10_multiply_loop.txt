@@ -1,0 +1,14 @@
+; Program 10: Multiply 3 * 4 = 12 (0Ch) using repeated addition loop
+; Loaded at start address 10h
+2000 ; [10] R0 = 00h (loop termination target)
+2103 ; [12] R1 = 03h (multiplicand)
+2204 ; [14] R2 = 04h (counter)
+2300 ; [16] R3 = 00h (accumulator sum)
+24FF ; [18] R4 = -1 (FFh in two's complement)
+B224 ; [1A] If R2 == R0 (0), jump to 24h
+5331 ; [1C] R3 = R3 + R1
+5224 ; [1E] R2 = R2 - 1
+B01A ; [20] Jump back to 1Ah
+C000 ; [22] Unused
+33FF ; [24] Output product R3 (0Ch) to screen
+C000 ; [26] Halt

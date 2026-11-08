@@ -1,0 +1,10 @@
+; Program 9: Print "FCAI" on screen
+2146 ; R1 = 'F' (46h)
+31FF ; Print 'F'
+2143 ; R1 = 'C' (43h)
+31FF ; Print 'C'
+2141 ; R1 = 'A' (41h)
+31FF ; Print 'A'
+2149 ; R1 = 'I' (49h)
+31FF ; Print 'I'
+C000 ; Halt

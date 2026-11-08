@@ -1,0 +1,8 @@
+; Program 14: Clear lower nibble and set upper nibble using AND & OR
+21AB ; R1 = ABh
+220F ; R2 = 0Fh (mask lower nibble)
+8312 ; R3 = R1 AND 0Fh = 0Bh
+2430 ; R4 = 30h
+7534 ; R5 = R3 OR 30h = 3Bh (';')
+35FF ; Output ';' to screen
+C000 ; Halt

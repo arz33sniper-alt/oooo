@@ -1,0 +1,6 @@
+; Program 1: Add two integers (5 + 7 = 12 / 0Ch) and display on screen
+2005 ; Load 05 into R0
+2107 ; Load 07 into R1
+5201 ; R2 = R0 + R1 (05 + 07 = 0C)
+32FF ; Store R2 to screen (FF)
+C000 ; Halt
