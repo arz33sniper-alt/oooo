@@ -11,6 +11,15 @@ TEAM MEMBERS:
   3. Khaled Mohamed Fawzy        - ID: 20250213
 
 ------------------------------------------------------------------------
+VIDEO PRESENTATION LINKS:
+------------------------------------------------------------------------
+  1. Team Video Presentation (Comparing AI Designs & Final Architecture):
+     https://drive.google.com/file/d/19CWTEVgIoNi7gfVxZ_asYLoFzih1IVwh/view?usp=sharing
+
+  2. GUI Simulator Video Presentation (Bonus Task):
+     https://drive.google.com/file/d/1RstVXHQkT5CTfDflBGXFcLANynJDup9A/view?usp=sharing
+
+------------------------------------------------------------------------
 1. PROJECT STRUCTURE
 ------------------------------------------------------------------------
   - Memory.h / Memory.cpp                 : 256-byte Main Memory (16x16 matrix)

@@ -13,3 +13,6 @@ FILES2:         Instruction.h, Instruction.cpp, ALU.h, ALU.cpp, ProgramLoader.h,
 ID3:            20250213
 NAME3:          Khaled Mohamed Fawzy
 FILES3:         CPU.h, CPU.cpp, Machine.h, Machine.cpp, ConsoleUI.h, ConsoleUI.cpp, A2-S39_S40-20250823-20250212-20250213.cpp
+
+PRESENTATION_VIDEO_LINK: https://drive.google.com/file/d/19CWTEVgIoNi7gfVxZ_asYLoFzih1IVwh/view?usp=sharing
+GUI_VIDEO_LINK:          https://drive.google.com/file/d/1RstVXHQkT5CTfDflBGXFcLANynJDup9A/view?usp=sharing
